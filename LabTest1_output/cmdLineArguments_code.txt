@@ -1,0 +1,10 @@
+if test $# -eq 3
+then
+echo "The total number of arguments are: $#"
+echo "The arguments given are:" 
+echo "$1"
+echo "$2"
+echo "$3"
+else
+echo "Pass exactly 3 parameters!"
+fi
